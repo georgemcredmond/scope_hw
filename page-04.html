@@ -1,0 +1,38 @@
+<!-- 
+4. Create an HTML page with a form. The form should include inputs for a username, email, and password as well as a submit button.    
+	- In a Javascript file, write code that does the following things:
+        - checks that the password is 12345678
+        - checks that the username contains at least one number
+        - if anything is wrong, send an alert message saying "incorrect"
+    - Your page should also include an H1 tag. If the information in the form is correct, have Javascript change the text in the H1. 
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Homework: Scope/DOM/Event Mini Challenges | #4</title>
+	<script type="text/javascript" src="js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="page-01.html">Example #1</a></li>
+				<li><a href="page-02.html">Example #2</a></li>
+				<li><a href="page-03.html">Example #3</a></li>
+				<li><a href="page-04.html" id="current">Example #4</a></li>
+			</ul>
+		</nav>
+
+		<h1 id="form-title">User Form</h1>
+		<div id="form">
+			<label for="username">username: </label><input type="text" name="username" id="username">
+			<label for="email">email: </label><input type="text" name="email" id="email">
+			<label for="password">password: </label><input type="password" name="password" id="password">
+			<button onclick="formCheck()">submit</button>
+		</div>
+	</header>
+</body>
+</html>

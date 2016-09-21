@@ -1,0 +1,32 @@
+<!-- 
+1. Create an HTML page with two buttons that argue with each other. When one button is clicked, the text "I'm right" should be placed next to it. When the other button is clicked, the text is replaced with, "No, I'm right!"
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Homework: Scope/DOM/Event Mini Challenges | #1</title>
+	<script type="text/javascript" src="js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="page-01.html" id="current">Example #1</a></li>
+				<li><a href="page-02.html">Example #2</a></li>
+				<li><a href="page-03.html">Example #3</a></li>
+				<li><a href="page-04.html">Example #4</a></li>
+			</ul>
+		</nav>
+		
+		<p>
+			Text: <span id="answer"></span><br><br>
+			<button onclick="btn1()">Button 1</button>
+			<button onclick="btn2()">Button 2</button>
+		</p>
+	</header>
+</body>
+</html>
